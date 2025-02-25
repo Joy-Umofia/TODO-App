@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>todo app</title>
+  <link rel="stylesheet" href="todo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+<div class="main-container">
+  <div class="todo-title-container">
+    <h1>TO-DO App</h1>
+  </div>
+  <div class="todo-input-container">
+    <form id="form">
+      <p id="error"></p>
+      <input type="text" placeholder="Enter to-do.....e.g dance later" name="todo-input" id="todo-input">
+      <button type="submit" id="button">Add Todo Item</button>
+    </form>
+  </div>
+
+  <div class="todo-item-container" id="todo-item-container">
+     <!-- <div class="todo-item" id="todo-item">
+      <div class="left-side">
+        <i class="fa-regular fa-circle"></i>
+        <i class="fa-solid fa-circle-check"></i>
+        <p>Dance Later</p>
+      </div>
+      
+      <div class="right-side">
+        <i class="fa-solid fa-pen"></i>
+        <i class="fa-solid fa-trash"></i>
+      </div>
+    </div>  -->
+  </div>
+</div>
+<audio src="./media/zapsplat_multimedia_notification_pop_up_short_pop_message_007_53931.mp3"  id="checkSound">
+  
+</audio>
+
+
+<button id="theme-toggle" data-theme="light">Switch to darkmode</button>
+
+
+<script src="./todo.js"></script>
+</body>
+</html>
