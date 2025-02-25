@@ -18,7 +18,7 @@ body.dark-mode {
 }
 
 .main-container{
-  width: 40%;
+  width: 50%;
   height: auto;
   background-color: #e7e4e4;
   margin: 4rem auto;
@@ -123,4 +123,14 @@ button{
 }
 .fa-circle-check{
   cursor: pointer;
+}
+
+@media (max-width:800px) {
+  .main-container{
+    width:100%
+  }
+  body{
+    padding-left:20px;
+    padding-right:20px
+  }
 }
